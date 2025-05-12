@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #00008B;
+    color: Black;
 }
 
 header {
@@ -57,7 +57,7 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: Black;
+    color: white;
 }
 
 .hero-content h2 {

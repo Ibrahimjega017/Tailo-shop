@@ -48,18 +48,16 @@ nav ul li a:hover {
 }
 
 /* Hero Section */
-.hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
+hero {
+  background-image: url('images/IMG_01.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #f8f8f2;
+  padding: 4rem 2rem;
+  text-align: center;
+  position: relative; /* Needed for positioning the pseudo-element */
+  overflow: hidden; /* To contain the pseudo-element within the section */
 }
-
 .hero-content h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
